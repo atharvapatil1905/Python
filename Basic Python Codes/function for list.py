@@ -1,0 +1,12 @@
+name=['zeenat','amar','ceema','yamini','Ajay','Beena']
+name.sort()
+print(name)
+name.sort(reverse=False)
+print(name)
+name.remove("Ajay")
+print(name)
+name.pop(2)
+print(name)
+print(name.index("zeenat"))
+rrr=name.copy()
+print(rrr)
